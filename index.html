@@ -42,7 +42,7 @@ font-weight:bold;
 
 .hero{
 background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("dog-training1.jpg") center/cover;
-height:500px;
+height:300px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -158,6 +158,16 @@ object-fit:cover;
 z-index:-1;
 }
 
+/* Change text color under About Our Training */
+#about p {
+  color: white;
+}
+
+/* Add hover effect for Dog Training Services */
+.services .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 </style>
 </head>
 
@@ -228,7 +238,6 @@ to produce real and lasting results.
 <section id="gallery">
 <h2>Training Gallery</h2>
 <div class="gallery">
-<img src="dog-training1.png">
 <img src="dog-training22.jpeg">
 <img src="dog-training33.jpeg">
 <img src="dog-training4.jpeg">
