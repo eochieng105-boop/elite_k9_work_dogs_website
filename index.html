@@ -34,6 +34,7 @@ height:70px;
 }
 
 header .logo {
+  content: url('logo1.jpg');
   position: absolute;
   top: 20px;
   right: 20px;
@@ -48,7 +49,7 @@ font-weight:bold;
 }
 
 .hero{
-background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("dog-training1.jpg") center/cover;
+background: url('CarBackground.jpg') center/cover no-repeat;
 height:300px;
 display:flex;
 align-items:center;
@@ -56,6 +57,10 @@ justify-content:center;
 text-align:center;
 color:white;
 padding:20px;
+}
+
+.hero video{
+display: none; /* Hide the video */
 }
 
 .hero h1{
@@ -196,10 +201,6 @@ playsinline: true; /* Added for mobile compatibility */
 </header>
 
 <section class="hero">
-<video autoplay muted loop>
-<source src="Dog jumps.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 <div>
 <h1>Elite K9 Work Dogs Australia</h1>
 <p>Professional Dog Training & Behaviour Solutions</p>
