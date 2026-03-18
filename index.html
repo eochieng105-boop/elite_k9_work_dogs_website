@@ -75,7 +75,7 @@ display: none; /* Hide the video */
 .hero p {
   color: grey; /* Ensure consistent color */
   font-size: 28px; /* Increase font size for better visibility */
-  font-weight: bold; /* Make the text bold */
+  font-weight: bold; /* Make "Professional Dog Training & Behavior Solutions" bold */
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better contrast */
 }
 
@@ -144,6 +144,15 @@ content:" \2605\2605\2605\2605\2605";
 color:gold;
 font-size:16px;
 margin-left:10px;
+}
+
+/* Update star ratings for specific reviews */
+.review b:contains("Campbell McDonald-Kerr")::after {
+  content: " \2605\2605\2605\2605"; /* 4 stars */
+}
+
+.review b:contains("Fatma Hashim")::after {
+  content: " \2605\2605\2605\2605"; /* 4 stars */
 }
 
 .booking{
@@ -219,7 +228,7 @@ playsinline: true; /* Added for mobile compatibility */
 <section class="hero">
 <div>
 <h1>Elite K9 Work Dogs Australia</h1>
-<p>Professional Dog Training & Behaviour Solutions</p>
+<p>Professional Dog Training & Behavior Solutions</p>
 <a class="btn" href="tel:+61478686110">Call to Book Training</a>
 </div>
 </section>
