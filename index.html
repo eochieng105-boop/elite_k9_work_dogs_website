@@ -29,16 +29,16 @@ justify-content:space-between;
 flex-wrap:wrap;
 }
 
-header img{
-height:70px;
-}
-
-header .logo {
+header img.logo {
   content: url('logo1.jpg');
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  left: 10px;
   height: 70px;
+}
+
+nav {
+  margin-left: auto;
 }
 
 nav a{
@@ -61,6 +61,10 @@ padding:20px;
 
 .hero video{
 display: none; /* Hide the video */
+}
+
+.hero h1, .hero p {
+  color: black;
 }
 
 .hero h1{
@@ -211,10 +215,7 @@ playsinline: true; /* Added for mobile compatibility */
 <section id="about">
 <h2>About Our Training</h2>
 <p>
-Elite K9 Work Dogs Australia provides professional dog training focused on obedience,
-behaviour correction, and building strong relationships between dogs and their owners.
-Trainer Dwight uses positive reinforcement methods and proven K9 training techniques
-to produce real and lasting results.
+Elite K9 Work Dogs Australia provides professional dog training focused on obedience, behaviour correction, and building strong relationships between dogs and their owners. Trainer Dwight uses positive reinforcement methods and proven K9 training techniques to deliver real and lasting results. The service is designed to address a wide range of behavioural issues, including reactivity, aggression towards people, other animals, or the environment, mouthing and biting, jumping up, anxiety, destructive behaviour, hyperactivity, and pulling on the lead.
 </p>
 </section>
 
@@ -249,12 +250,14 @@ to produce real and lasting results.
 <section id="gallery">
 <h2>Training Gallery</h2>
 <div class="gallery">
-<img src="dog-training22.jpeg">
-<img src="dog-training33.jpeg">
-<img src="dog-training4.jpeg">
-<img src="dog-training5.jpeg">
-<img src="dog-training6.jpeg">
-
+  <img src="dog-training22.jpeg">
+  <img src="dog-training33.jpeg">
+  <img src="dog-training4.jpeg">
+  <img src="dog-training5.jpeg">
+  <img src="dog-training6.jpeg">
+  <img src="dog-training7.jpg">
+  <img src="dog-training8.jpg">
+  <img src="dog-training9.jpg">
 </div>
 </section>
 
@@ -262,23 +265,20 @@ to produce real and lasting results.
 <h2>Client Reviews</h2>
 
 <div class="review">
-<b>Campbell McDonald-Kerr</b>
-<p>We had 3 one‑on‑one sessions with Dwight and he was incredibly knowledgeable about dog behaviour. Our puppy learned to sit, lay down, and roll over within weeks. Highly professional and great value.</p>
+  <b>Campbell McDonald-Kerr</b>
+  <p>We had 3 one‑on‑one sessions with Dwight and he was incredibly knowledgeable about dog behaviour. Our puppy learned to sit, lay down, and roll over within weeks. Highly professional and great value.</p>
 </div>
-
 <div class="review">
-<b>Emma Webb</b>
-<p>Dwight came to our house the next day after contacting Elite K9. He helped us manage introducing a new puppy to our adult dog and gave us the tools to make it work.</p>
+  <b>Emma Webb</b>
+  <p>Dwight came to our house the next day after contacting Elite K9. He helped us manage introducing a new puppy to our adult dog and gave us the tools to make it work.</p>
 </div>
-
 <div class="review">
-<b>Lisa Guglielmino</b>
-<p>Fantastic support and knowledge. Dwight understood my large Akita immediately and helped transform our walks into calm enjoyable experiences.</p>
+  <b>Lisa Guglielmino</b>
+  <p>Fantastic support and knowledge. Dwight understood my large Akita immediately and helped transform our walks into calm enjoyable experiences.</p>
 </div>
-
 <div class="review">
-<b>Fatma Hashim</b>
-<p>One session with Dwight and our Labradoodle was already behaving differently. His experience and advice were incredible.</p>
+  <b>Fatma Hashim</b>
+  <p>One session with Dwight and our Labradoodle was already behaving differently. His experience and advice were incredible.</p>
 </div>
 
 </section>
