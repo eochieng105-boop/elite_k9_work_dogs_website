@@ -31,11 +31,11 @@ flex-wrap:wrap;
 
 header img.logo {
   content: url('logo1.jpg');
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  position: relative; /* Changed to relative to ensure it stays within the header */
+  top: 0;
+  left: 0;
   height: 70px;
-  max-width: calc(100% - 20px); /* Ensure it fits within the blue background */
+  max-width: 100%; /* Ensure it fits within the blue background */
   object-fit: contain;
 }
 
@@ -66,11 +66,11 @@ display: none; /* Hide the video */
 }
 
 .hero h1 {
-  color: yellow; /* Elite K9 Work Dogs Australia */
+  color: grey; /* Elite K9 Work Dogs Australia */
 }
 
 .hero p {
-  color: yellow; /* Professional Dog Training & Behavior Solutions */
+  color: grey; /* Professional Dog Training & Behavior Solutions */
 }
 
 .hero h1{
