@@ -73,13 +73,15 @@ display: none; /* Hide the video */
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6); /* Dark overlay */
-  z-index: 1;
+  z-index: -1; /* Lowered z-index to prevent blocking */
 }
 
 .hero h1 {
-  color: #FFFFFF; /* Solid white */
-  font-size: 56px; /* Larger font size */
-  font-weight: 900; /* Bold */
+  color: grey; /* Grey color for the title */
+  font-size: 64px; /* Larger font size */
+  font-weight: 900; /* Bold to make it stand out */
+  text-transform: uppercase; /* Uppercase for emphasis */
+  text-align: center; /* Center alignment */
   z-index: 2;
   position: relative;
 }
